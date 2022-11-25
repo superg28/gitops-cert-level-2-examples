@@ -28,7 +28,8 @@ spec:
         server: '{{server}}'
         namespace: '{{path.basename}}'
       syncPolicy:
+        syncOptions:
           - CreateNamespace=true
-      automated:
-        prune: true
-        selfHeal: true
+        automated:
+          prune: true
+          selfHeal: true
