@@ -29,6 +29,6 @@ spec:
         namespace: '{{path.basename}}'
       syncPolicy:
           - CreateNamespace=true
-        automated:
-          prune: true
-          selfHeal: true
+      automated:
+        prune: true
+        selfHeal: true
