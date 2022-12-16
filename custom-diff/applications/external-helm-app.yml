@@ -28,5 +28,5 @@ spec:
         - /data
     - group: apps
       kind: Deployment
-      jsonPointers:
-        - /metadata/annotations
+      jqPathExpression:
+        - .metadata.annotaitions.creation
