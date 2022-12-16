@@ -24,6 +24,7 @@ spec:
   ignoreDifferences:
     - group: apps
       kind: Deployment
+      name: simple-deployment
       jsonPointers:
         - /metadata/annotaitions/creation
     - group: ""
